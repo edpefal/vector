@@ -3,12 +3,11 @@
 interface Props {
   preview: string;
   svgContent: string;
-  originalName: string;
   onReset: () => void;
   onDownloadClick: () => void;
 }
 
-export function ResultPanel({ preview, svgContent, originalName, onReset, onDownloadClick }: Props) {
+export function ResultPanel({ preview, svgContent, onReset, onDownloadClick }: Props) {
 
   return (
     <div className="flex flex-col gap-6">

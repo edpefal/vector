@@ -187,7 +187,7 @@ function downloadSvg(svgContent: string, originalName: string): void {
 /**
  * Log event to server for analytics
  */
-function logEvent(eventType: string, data: Record<string, any>): void {
+function logEvent(eventType: string, data: Record<string, string | number | boolean | null>): void {
   // Log to console
   const timestamp = new Date().toISOString();
   console.log(JSON.stringify({ timestamp, event: eventType, ...data }));

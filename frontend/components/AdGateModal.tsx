@@ -23,10 +23,9 @@ interface Props {
   isOpen: boolean;
   onClose: () => void;
   onAdComplete: () => void;
-  originalName: string;
 }
 
-export function AdGateModal({ isOpen, onClose, onAdComplete, originalName }: Props) {
+export function AdGateModal({ isOpen, onClose, onAdComplete }: Props) {
   const [stage, setStage] = useState<"initial" | "playing" | "fallback">("initial");
   const [error, setError] = useState<string | null>(null);
   const [timeoutFallback, setTimeoutFallback] = useState(false);

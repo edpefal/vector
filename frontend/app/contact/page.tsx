@@ -10,11 +10,11 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // In production, you would send this to your backend
-    console.log('Contact form submitted:', { email, message });
+    console.log(&quot;Contact form submitted:&quot;, { email, message });
     setSubmitted(true);
     setTimeout(() => {
-      setEmail('');
-      setMessage('');
+      setEmail(&quot;&quot;);
+      setMessage(&quot;&quot;);
       setSubmitted(false);
     }, 3000);
   };
@@ -78,7 +78,7 @@ export default function Contact() {
           <div className="mt-8 pt-8 border-t border-slate-200">
             <h3 className="text-lg font-semibold text-slate-800 mb-4">Other Ways to Reach Us</h3>
             <p className="text-slate-700">
-              Email:{' '}
+              Email:{&quot; &quot;}
               <a href="mailto:support@img2svg.com" className="text-blue-600 hover:underline">
                 support@img2svg.com
               </a>

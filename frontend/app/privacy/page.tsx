@@ -7,7 +7,7 @@ export default function Privacy() {
         <h1 className="text-4xl font-bold text-slate-900 mb-6">Privacy Policy</h1>
 
         <div className="bg-white rounded-lg shadow-md p-8 space-y-6 text-slate-700 leading-relaxed">
-          <p className="text-sm text-slate-500">Last updated: {new Date().toLocaleDateString()}</p>
+          <p className="text-sm text-slate-500">Last updated: {new Date().toLocaleDateString(&quot;en-US&quot;)}</p>
 
           <section>
             <h2 className="text-2xl font-semibold text-slate-800 mb-3">1. Introduction</h2>
@@ -43,7 +43,7 @@ export default function Privacy() {
           <section>
             <h2 className="text-2xl font-semibold text-slate-800 mb-3">4. Google AdSense and Advertising</h2>
             <p>
-              We use Google AdSense to display advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. You can opt out of personalized advertising by visiting{' '}
+              We use Google AdSense to display advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. You can opt out of personalized advertising by visiting{&quot; &quot;}
               <a href="https://www.google.com/settings/ads" className="text-blue-600 hover:underline">
                 Google Ad Settings
               </a>
