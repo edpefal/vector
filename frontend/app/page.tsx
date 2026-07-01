@@ -155,7 +155,6 @@ export default function HomePage() {
           <ResultPanel
             preview={state.preview}
             svgContent={state.svgContent}
-            originalName={state.originalName}
             onReset={handleReset}
             onDownloadClick={handleDownloadClick}
           />
@@ -163,7 +162,6 @@ export default function HomePage() {
             isOpen={state.phase === "ad-gate"}
             onClose={handleAdReject}
             onAdComplete={handleAdComplete}
-            originalName={state.originalName}
           />
         </>
       )}
