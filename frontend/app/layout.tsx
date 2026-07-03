@@ -33,6 +33,14 @@ export default function RootLayout({
           </div>
         </footer>
 
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6292269650358396"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
         {/* Google IMA SDK for AdSense video ads */}
         <Script
           src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"
