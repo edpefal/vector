@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Image Vectorizer",
   description: "Convert PNG/JPG images to clean SVG vectors",
+  other: {
+    "google-adsense-account": "ca-pub-6292269650358396",
+  },
 };
 
 export default function RootLayout({
